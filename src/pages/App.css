@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SUIT-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+  font-weight: medium;
+  font-style: SUITmedium;
+}
+
+@font-face {
+  font-family: 'SUIT-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+  font-weight: bold;
+  font-style: SUITbold;
+}
+
+@font-face {
+  font-family: 'Mango_Ddobak';
+  src: url('./fonts/MangoDdobak-B\(otf\).otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mango_Ddobak_R';
+  src: url('./fonts/MangoDdobak-R\(otf\).otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mango_Ddobak_R';
+  src: url('./fonts/MangoDdobak-R\(otf\).otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-mango {
+  font-family: 'Mango_Ddobak', sans-serif;
+}
+
+.font-mango-regular {
+  font-family: 'Mango_Ddobak_R', sans-serif;
+}
+
+.shadowHeader {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+
